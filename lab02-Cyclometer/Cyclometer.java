@@ -18,7 +18,7 @@ public class Cyclometer {
             //records the number of counts (rotations) of trip 2
     //Below are variables for useful constants and for storing the various distances
         double wheelDiameter = 27.0 ,
-            //records double the wheel diameter 
+            //declares the wheel diameter 
         PI = 3.14159 ,
             //names and defines the mathamatical constant, Pi
         feetPerMile = 5280 ,
@@ -28,7 +28,7 @@ public class Cyclometer {
         secondsPerMinute = 60 ;
             //number of seconds in a minute 
         double distanceTrip1, distanceTrip2, totalDistance;
-            //doubles the distance of each trip
+            //declares distance of each trip and the total distance
     //Prints the numbers stored in the variables that store the number of seconds and the counts
         System.out.println("Trip 1 took "+
             (secsTrip1/secondsPerMinute)+ " minutes and had "+
@@ -47,7 +47,7 @@ public class Cyclometer {
     //Print out the output date
         System.out.println("Trip 1 was " + distanceTrip1 + " miles.") ;
         System.out.println("Trip 2 was " + distanceTrip2 + " miles.") ;
-        System.out.println("The total distance was " + totalDistance + " miles.") ;
+        System.out.println("The total distance was " + totalDistance + " miles") ;
         
         }   //end of main method
 }   //end of class
