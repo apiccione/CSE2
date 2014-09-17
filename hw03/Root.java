@@ -14,7 +14,7 @@ public class Root {
     public static void main(String [] args){
         
         // Declare instance of scanner object 
-         Scanner myScanner ; 
+        Scanner myScanner ; 
         
         // Call scanner constructer 
         myScanner = new Scanner(System.in) ; 
