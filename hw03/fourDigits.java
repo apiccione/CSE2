@@ -32,10 +32,10 @@ public class fourDigits {
         double decimals = number - wholeNumber ; 
         
         //  decimals to print 
-        int decimalsForm = (int) (decimals * 10000) ;
+        int decimals2 = (int) (decimals * 10000) ;
         
         //  Print the result 
-        System.out.println("The first four digits to the right of the decimal are: " + decimalsForm) ; 
+        System.out.println("The first four digits to the right of the decimal are: " + decimals2) ; 
         
     } //    end of main method 
 }// end of class
