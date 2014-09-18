@@ -31,11 +31,20 @@ public class FourDigits {
         //  strip decimals 
         double decimals = number - wholeNumber ; 
         
-        //  decimals to print 
-        int decimals2 = (int) (decimals * 10000) ;
+        // pull first decimal 
+        int x = (int) ((decimals * 10) % 10) ;
+        
+        // pull second decimal
+        int x1 = (int) ((decimals * 100) % 10) ;
+        
+        // pull third decimal
+        int x2 = (int) ((decimals * 1000) % 10) ;
+        
+        // pull fourth decimal
+        int x3 = (int) ((decimals * 10000) % 10) ;
         
         //  Print the result 
-        System.out.println("The first four digits to the right of the decimal are: " + decimals2) ; 
-        
+        System.out.println("The first four digits to the right of the decimal are: " + x + x1 + x2 + x3) ; 
+       
     } //    end of main method 
 }// end of class
