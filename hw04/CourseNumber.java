@@ -59,8 +59,6 @@ public class CourseNumber {
             System.out.println (semester2 + " is not a legitimate course number.") ; 
             return; 
         }// end else statement 
-            
-       
         
     } // end main method
 } // end class
