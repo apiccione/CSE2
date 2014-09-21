@@ -1,8 +1,8 @@
 ////////////////////////////////////////////////////////////
 // Anthony Piccione
 // [CSE 002]
-// Homework 04 - Program #1: Income Tax 
-// September 23. 2014
+// Homework 04 - Program #2: Days in Month Calculator 
+// September 23, 2014
 
 // import scanner 
 import java.util.Scanner ; 

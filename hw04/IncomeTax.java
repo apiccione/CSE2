@@ -2,7 +2,7 @@
 // Anthony Piccione
 // [CSE 002]
 // Homework 04 - Program #1: Income Tax 
-// September 23. 2014
+// September 23, 2014
 
 // import scanner 
 import java.util.Scanner ; 
@@ -43,6 +43,7 @@ public class IncomeTax {
         
         if (income <= 0) { 
             System.out.println("You did not enter a positive int") ; 
+            return ;
         } // close if statement 
         else if (income < 20) {
             // income tax math and formatting
