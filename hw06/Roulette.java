@@ -21,7 +21,6 @@ public class Roulette {
         int spin ; //result of the spin on a roulette wheel 
         int choice ; // players random choice
         int money = 1 ; // amount of money the player has 
-        String result ; // win or loose
         int counter1 = 0 ; // stores the number of spins (100 spins)
         int counter2 = 0 ; // stores the number of times the stategy is run (1,000 times)
         int looseEverything = 0 ; // stores number of times you lost everything 
@@ -46,11 +45,9 @@ public class Roulette {
                 // test if player wins 
                 if (spin == choice) { 
                     money += 35 ; 
-                    result = " You win! " ; 
                 } // end if 
                 else {
                     --money ; 
-                    result = " You Loose! " ; 
                 } // end else 
                 ++counter1 ; 
             } // end loop 
