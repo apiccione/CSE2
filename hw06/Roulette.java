@@ -5,17 +5,11 @@
 //  Chooses one of those numbers 100 times
 //  The program then runs a simulation 10,000 times (i.e. a monte carlo simulation)
 
-// import scanner 
-import java.util.Scanner ; 
-
 // add class 
 public class Roulette { 
 
     // add main method 
     public static void main (String [] args) { 
-        
-        // construct the scanner 
-        Scanner scan = new Scanner (System.in) ; 
         
         // declare needed variable 
         int spin ; //result of the spin on a roulette wheel 
